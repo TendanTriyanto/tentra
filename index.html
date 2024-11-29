@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tentra - Tendan Travel</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo biasa.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comforter+Brush&family=Heebo:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#">
+        <h1 class="logo">
+          <img src="/assets/images/logo putih.svg" alt="" width="100px" style="align-items: center;">
+        </h1>
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
+        <ion-icon name="menu-outline" class="open"></ion-icon>
+        <ion-icon name="close-outline" class="close"></ion-icon>
+      </button>
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#destination" class="navbar-link">Destinations</a>
+          </li>
+
+          <li>
+            <a href="#developer-profile" class="navbar-link">Pengembang</a>
+          </li>
+
+        </ul>
+
+        <div class="btn-group">
+          <a href="#" class="btn btn-secondary" id="login-btn">Login</a>
+          <a href="#" class="btn btn-primary" id="register-btn">Register</a>
+        </div>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section id="home" class="section hero"
+        style="background-image: url('./assets/images/hero-bg-bottom.png') url('./assets/images/hero-bg-top.png')">
+        <div class="container">
+
+          <img src="./assets/images/shape-1.png" width="61" height="61" alt="Vector Shape" class="shape shape-1">
+
+          <img src="./assets/images/shape-2.png" width="56" height="74" alt="Vector Shape" class="shape shape-2">
+
+          <img src="./assets/images/shape-3.png" width="57" height="72" alt="Vector Shape" class="shape shape-3">
+
+          <div class="hero-content">
+
+            <p class="section-subtitle">Jelajahi Perjalanan Anda</p>
+
+            <h2 class="hero-title">
+              Agen Perjalanan Terpercaya</h2>
+
+            <p class="hero-text">
+              Temukan destinasi impian Anda bersama kami. Nikmati perjalanan yang tak terlupakan dengan layanan terbaik dan harga terjangkau. Pesan sekarang dan mulailah petualangan Anda!
+            </p>
+
+            <div class="btn-group">
+              <a href="#about" class="btn btn-primary">Tentang Kami</a>
+            </div>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/logo biasa.svg" width="686" height="812" loading="lazy" alt="hero banner"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #DESTINATION
+      -->
+
+      <section id="destination" class="section destination">
+        <div class="container">
+
+          <p class="section-subtitle">Destinations</p>
+
+          <h2 class="h2 section-title">Pilih Destinasi</h2>
+
+          <ul class="destination-list">
+
+            <li class="destination-item">
+              <a href="#" class="destination-card">
+                <figure class="card-banner">
+                  <img src="./assets/images/images.jfif" width="1140" height="1100" loading="lazy" alt="Gili Trawangan" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <p class="card-subtitle">Gili Trawangan</p>
+                  <h3 class="h3 card-title">Lombok</h3>
+                </div>
+              </a>
+            </li>
+
+            <li class="destination-item">
+              <a href="#" class="destination-card">
+                <figure class="card-banner">
+                  <img src="./assets/images/Pulau-Bali.webp" width="1140" height="1100" loading="lazy" alt="Pulau Dewata" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <p class="card-subtitle">Pulau Dewata</p>
+                  <h3 class="h3 card-title">Bali</h3>
+                </div>
+              </a>
+            </li>
+
+            <li class="destination-item">
+              <a href="#" class="destination-card">
+                <figure class="card-banner">
+                  <img src="./assets/images/download.jfif" width="1110" height="480" loading="lazy" alt="Raja Ampat" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <p class="card-subtitle">Raja Ampat</p>
+                  <h3 class="h3 card-title">Papua</h3>
+                </div>
+              </a>
+            </li>
+
+            <li class="destination-item">
+              <a href="#" class="destination-card">
+                <figure class="card-banner">
+                  <img src="./assets/images/banda.jfif" width="1110" height="480" loading="lazy" alt="Banda Neira" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <p class="card-subtitle">Banda Neira</p>
+                  <h3 class="h3 card-title">Maluku</h3>
+                </div>
+              </a>
+            </li>
+
+            <li class="destination-item">
+              <a href="#" class="destination-card">
+                <figure class="card-banner">
+                  <img src="./assets/images/komodo.jfif" width="1110" height="480" loading="lazy" alt="Pulau Komodo" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <p class="card-subtitle">Pulau Komodo</p>
+                  <h3 class="h3 card-title">Nusa Tenggara Timur</h3>
+                </div>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #POPULAR
+      -->
+
+      <section class="section popular">
+        <div class="container">
+
+          <p class="section-subtitle">Booking</p>
+
+          <h2 class="h2 section-title">Perjalanan</h2>
+
+          <ul class="popular-list">
+
+            <li class="popular-item">
+              <div class="popular-card">
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/images.jfif" width="800" height="600" loading="lazy"
+                      alt="Pulau-Bali,Indonesia" class="img-cover">
+                  </a>
+
+                  <span class="card-badge">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="P12D">12 Days</time>
+                  </span>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-price">Rp 15.000.000</div>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+
+                      <data value="2">(2)</data>
+                    </div>
+                  </div>
+
+                  <h3 class="card-title">
+                    <a href="#">Gili trawangan</a>
+                  </h3>
+
+                  <p class="card-description">Gili Trawangan adalah pulau terbesar dari tiga pulau kecil atau gili yang berada di sebelah barat laut Lombok.</p><br>
+
+                  <address class="card-location">Lombok</address>
+                  <button class="btn btn-primary book-now-btn" data-book-now data-destination="Gili Trawangan">Book Now</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="popular-item">
+              <div class="popular-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/Pulau-Bali.webp" width="740" height="518" loading="lazy"
+                      alt="Pulau-Bali,Indonesia" class="img-cover">
+                  </a>
+
+                  <span class="card-badge">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="P12D">12 Days</time>
+                  </span>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-price">Rp 10.000.000</div>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+
+                      <data value="2">(2)</data>
+                    </div>
+                  </div>
+
+                  <h3 class="card-title">
+                    <a href="#">Pulau Dewata</a>
+                  </h3>
+
+                  <p class="card-description">Pulau Dewata, atau Bali, terkenal dengan pantai-pantainya yang indah, budaya yang kaya, dan kehidupan malam yang semarak.</p><br>
+
+                  <address class="card-location">Bali</address>
+                  <button class="btn btn-primary book-now-btn" data-book-now data-destination="Pulau Dewata">Book Now</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="popular-item">
+              <div class="popular-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/download.jfif" width="740" height="518" loading="lazy"
+                      alt="Pulau-Bali,Indonesia" class="img-cover">
+                  </a>
+
+                  <span class="card-badge">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="P12D">12 Days</time>
+                  </span>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-price">Rp 20.000.000</div>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+
+                      <data value="2">(2)</data>
+                    </div>
+                  </div>
+
+                  <h3 class="card-title">
+                    <a href="#">Raja Ampat</a>
+                  </h3>
+
+                  <p class="card-description">Raja Ampat adalah kepulauan yang terdiri dari lebih dari 1.500 pulau kecil yang terkenal dengan keindahan bawah lautnya.</p><br>
+
+                  <address class="card-location">Papua</address>
+                  <button class="btn btn-primary book-now-btn" data-book-now data-destination="Raja Ampat">Book Now</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="popular-item">
+              <div class="popular-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/banda.jfif" width="740" height="518" loading="lazy"
+                      alt="Pulau-Bali,Indonesia" class="img-cover">
+                  </a>
+
+                  <span class="card-badge">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="P12D">12 Days</time>
+                  </span>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-price">Rp 14.000.000</div>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+
+                      <data value="2">(2)</data>
+                    </div>
+                  </div>
+
+                  <h3 class="card-title">
+                    <a href="#">Banda Neira</a>
+                  </h3>
+
+                  <p class="card-description">Banda Neira adalah salah satu pulau di Kepulauan Banda yang terkenal dengan sejarah rempah-rempahnya.</p><br>
+
+                  <address class="card-location">Nusa Tenggara Timur</address>
+                  <button class="btn btn-primary book-now-btn" data-book-now data-destination="Banda Neira">Book Now</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="popular-item">
+              <div class="popular-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/komodo.jfif" width="740" height="518" loading="lazy"
+                      alt="Kuala Lumpur, Malaysia" class="img-cover">
+                  </a>
+
+                  <span class="card-badge">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="P12D">12 Days</time>
+                  </span>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-price">Rp 15.000.000</div>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+
+                      <data value="2">(2)</data>
+                    </div>
+                  </div>
+
+                  <h3 class="card-title">
+                    <a href="#">Pulau komodo</a>
+                  </h3>
+
+                  <p class="card-description">Pulau Komodo adalah rumah bagi komodo, kadal terbesar di dunia, dan merupakan bagian dari Taman Nasional Komodo.</p><br>
+
+                  <address class="card-location">Nusa Tenggara Barat</address>
+                  <button class="btn btn-primary book-now-btn" data-book-now data-destination="Pulau Komodo">Book Now</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="popular-item">
+              <div class="popular-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/baluran.webp" width="740" height="518" loading="lazy"
+                      alt="Kuala Lumpur, Malaysia" class="img-cover">
+                  </a>
+
+                  <span class="card-badge">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="P12D">12 Days</time>
+                  </span>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-price">Rp 10.000.000</div>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+
+                      <data value="2">(2)</data>
+                    </div>
+                  </div>
+
+                  <h3 class="card-title">
+                    <a href="#">Taman Nasional Baluran</a>
+                  </h3>
+
+                  <p class="card-description">Taman Nasional Baluran adalah taman nasional di Jawa Timur yang dikenal sebagai "Africa van Java" karena savananya yang luas.</p><br>
+
+                  <address class="card-location">Jawa Timur</address>
+                  <button class="btn btn-primary book-now-btn" data-book-now data-destination="Taman Nasional Baluran">Book Now</button>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- Booking Modal -->
+      <div class="modal" id="booking-modal">
+        <div class="modal-content">
+          <span class="close-btn" id="close-modal">&times;</span>
+          <h2>Booking Form</h2>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" name="destination" readonly>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <div class="btn-container">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Login Modal -->
+      <div class="modal" id="login-modal">
+        <div class="modal-content">
+          <span class="close-btn" id="close-login-modal">&times;</span>
+          <h2>Login Form</h2>
+          <form>
+            <label for="login-email">Email:</label>
+            <input type="email" id="login-email" name="email" required>
+            <label for="login-password">Password:</label>
+            <input type="password" id="login-password" name="password" required>
+            <div class="btn-container">
+              <button type="submit" class="btn btn-primary">Login</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Register Modal -->
+      <div class="modal" id="register-modal">
+        <div class="modal-content">
+          <span class="close-btn" id="close-register-modal">&times;</span>
+          <h2>Register Form</h2>
+          <form>
+            <label for="register-name">Name:</label>
+            <input type="text" id="register-name" name="name" required>
+            <label for="register-email">Email:</label>
+            <input type="email" id="register-email" name="email" required>
+            <label for="register-password">Password:</label>
+            <input type="password" id="register-password" name="password" required>
+            <div class="btn-container">
+              <button type="submit" class="btn btn-primary">Register</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section id="about" class="section about">
+        <div class="container">
+          <p class="section-subtitle" style="text-align: center;">Tentang Kami</p>
+
+            <h2 class="h2 section-title" style="text-align: center;">Jelajahi Semua Wisata Dunia dengan Tentra</h2>
+
+          <div class="about-content">
+
+            <p class="about-text">
+              Tentra adalah perusahaan perjalanan terkemuka yang mengkhususkan diri dalam menyediakan pengalaman perjalanan yang tak terlupakan. Misi kami adalah membuat perjalanan dapat diakses dan dinikmati oleh semua orang. Dengan berbagai tujuan dan layanan yang dipersonalisasi, kami memastikan setiap perjalanan menjadi petualangan yang berkesan.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+
+                <div class="about-item-icon">
+                  <ion-icon name="compass"></ion-icon>
+                </div>
+
+                <div class="about-item-content">
+                  <h3 class="h3 about-item-title">Pemandu Wisata</h3>
+
+                  <p class="about-item-text">
+                    Pemandu wisata kami yang berpengalaman sangat antusias untuk berbagi pengetahuan mereka dan memastikan Anda memiliki pengalaman perjalanan yang memperkaya.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="about-item">
+
+                <div class="about-item-icon">
+                  <ion-icon name="briefcase"></ion-icon>
+                </div>
+
+                <div class="about-item-content">
+                  <h3 class="h3 about-item-title">Harga Bersahabat</h3>
+
+                  <p class="about-item-text">
+                    Kami menawarkan harga yang kompetitif tanpa mengorbankan kualitas, membuat perjalanan terjangkau untuk semua orang.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="about-item">
+
+                <div class="about-item-icon">
+                  <ion-icon name="umbrella"></ion-icon>
+                </div>
+
+                <div class="about-item-content">
+                  <h3 class="h3 about-item-title">Tur yang Andal</h3>
+
+                  <p class="about-item-text">
+                    Tur kami terorganisir dengan baik dan andal, memastikan pengalaman perjalanan yang bebas repot dan menyenangkan.
+                  </p>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+          <figure class="about-banner">
+            <img src="./assets/images/logo biasa.svg" width="756" height="842" loading="lazy" alt="Tentra Logo" class="w-100">
+            <figcaption class="about-logo-caption">Tentra - Mitra Perjalanan Terpercaya Anda</figcaption>
+          </figure>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #DEVELOPER PROFILE
+      -->
+
+      <section id="developer-profile" class="section developer-profile">
+        <div class="container">
+          <h2 class="h2 section-title" style="text-align: center;">Profil Pengembang</h2><br><br>
+          <div class="profile-content">
+            <figure class="profile-photo">
+              <img src="./assets/images/tendan foto.jpg" width="100" height="100" alt="Developer Photo" class="img-cover">
+            </figure>
+            <div class="profile-description">
+              <h3 class="h3 profile-name">Tendan Triyanto</h3>
+              <p class="profile-text">
+                Pengembang web ini adalah Tendan Triyanto merupakan seorang mahasiswa STT Terpadu Nurul Fikri semester pertama dan dalam pengembangan web yang baru saja memulai perjalanan belajarnya. 
+              </p>
+              <div class="social-links">
+                <a href="https://www.instagram.com/tendannn_" target="_blank" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="https://www.linkedin.com/in/tendan-triyanto-1a393132b" target="_blank" class="social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+                <a href="https://wa.me/+6288973112830" target="_blank" class="social-link">
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Top destination</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Gili Trawangan</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Pulau Dewata</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Raja Ampat</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Pulau Komodo</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Banda Neira</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Categories</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Travel</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Lifestyle</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Fashion</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Education</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Food & Drink</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Quick links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Destination</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Booking</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & Conditions</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Get a newsletter</p>
+
+          <p class="newsletter-text">
+            For the latest deals and tips, travel no further than your inbox
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email" required placeholder="Email address" class="newsletter-input">
+
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <a href="#" class="logo">TENTRA</a>
+
+        <p class="copyright">
+          &copy; 2022 <a style="text-decoration: none;" href="#" class="copyright-link">Tendan Travel </a>. All Rights Reserved
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-google"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top aria-label="Go To Top">
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
